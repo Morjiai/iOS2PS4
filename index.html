@@ -1,0 +1,44 @@
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=windows-1257">
+<title>iOS2PS4</title>
+<script type="text/javascript" src="ps4.js"></script>
+<link rel="stylesheet" type="text/css" href="emy.css">
+<link rel="stylesheet" type="text/css" href="main.css">
+<link rel="stylesheet" type="text/css" href="plugin.css">
+<link rel="stylesheet" type="text/css" href="plugin3.css">
+<meta content="yes" name="apple-mobile-web-app-capable">
+<meta name="description" content="PS4 playground ported to iOS. ">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+<script type="text/javascript" src="emy.js"></script>
+<script src="plugin.js"></script>
+</head>
+<body>
+ <header class="toolbar">
+          <div><a style="display: none;" id="backButton" class="button" href="#"></a></div>
+          <h1 id="viewTitle">iOS2PS4</h1>
+          </header>
+
+        <section style="min-height: 484px;" id="main" data-title="iOS2PS4" selected="true">
+<ul> 
+<li class="group">Exploit</li> 
+</ul>
+<center>
+IP:
+<input value="192.168.0.4" id="hostAddr" type="text"><br>
+<br>				
+Port:
+<input value="9023" id="hostPort" type="number"><br>
+<br>
+<h4 id="codeExecutionStage">Stage: [Not started]</h4>				
+<button onclick='setTimeout(function() { document.cookie = "codeExecutionStage=1"; location.reload(); }, 10);'>Go</button>
+</center>
+<br><br>
+		<center>		Message:
+					<center><input size="50" placeholder="iOS2PS4" id="socketMessage" type="text"><br></center>
+					<br>
+					
+					<button onclick="socketSend()"><b>Send Message</b></button>
+<br><br></center> 
+<center> Welcome! Created by @Morjiai. Exploits by CTurt, flatz, SKFU, droogie, Xerpi, Hunger, Takezo, nas, Proxima </center>
+
+</section><div style="min-height: 484px;" id="preloader"></div></body></html>
